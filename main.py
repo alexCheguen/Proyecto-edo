@@ -19,7 +19,6 @@ import re
 
 app = FastAPI(title="EDO Solver API")
 
-# Configurar CORS para permitir peticiones desde Vue
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
