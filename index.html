@@ -282,7 +282,7 @@
 <body>
     <div id="app">
         <div class="header">
-            <h1>🧮 Calculadora EDO</h1>
+            <h1>Calculadora EDO</h1>
             <p>Resolvedor de Ecuaciones Diferenciales Ordinarias de Primer Orden</p>
         </div>
 
@@ -308,7 +308,7 @@
                 </div>
 
                 <div class="examples" v-if="tipoInfo.ejemplos">
-                    <h4>📝 Ejemplos:</h4>
+                    <h4>Ejemplos:</h4>
                     <div v-for="(ejemplo, idx) in tipoInfo.ejemplos" :key="idx" class="example-item"
                         @click="ecuacion = ejemplo">
                         {{ ejemplo }}
@@ -343,7 +343,7 @@
             </div>
 
             <div v-if="resultado && !cargando" class="result-section">
-                <div class="result-title">✅ Solución Encontrada</div>
+                <div class="result-title">Solución Encontrada</div>
 
                 <div class="solution">
                     <div class="solution-label">Solución General:</div>
@@ -356,7 +356,7 @@
                 </div>
 
                 <div v-if="resultado.steps && resultado.steps.length > 0" class="steps">
-                    <div class="solution-label">📋 Pasos de Solución:</div>
+                    <div class="solution-label">Pasos de Solución:</div>
                     <div v-for="(paso, idx) in resultado.steps" :key="idx" class="step">
                         {{ paso }}
                     </div>
