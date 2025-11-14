@@ -31,12 +31,6 @@ Calculadora web desarrollada con **Vue.js** (frontend) y **Python/FastAPI** (bac
 # Crear entorno virtual (recomendado)
 python -m venv venv
 
-# Activar entorno virtual
-# En Windows:
-venv\Scripts\activate
-# En Linux/Mac:
-source venv/bin/activate
-
 # Instalar dependencias
 pip install -r requirements.txt
 
